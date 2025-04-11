@@ -5,19 +5,18 @@ const Home = () => {
     return (
         <>
             <div
-                className="w-full h-full lg:h-[600px] bg-cover bg-center"
-                style={{ backgroundImage: "url('https://arkaaconsultants.com/_next/image?url=https%3A%2F%2Fimagedelivery.net%2FKvC4qoCjZaXRiBrc_a6Y9A%2F20d5ecf5-1403-4d20-67c0-6b88b537a000%2Fpublic&w=3840&q=75')" }}
+                className="w-full min-h-screen lg:h-[600px] bg-cover bg-center bg-black bg-opacity-100"
+                style={{ backgroundImage: "url('https://media-production.lp-cdn.com/cdn-cgi/image/format=auto,quality=85,fit=scale-down,width=1280/https://media-production.lp-cdn.com/media/hqqfwkfjm56jvv4ubvlh')" }}
             >
                 <div className="">
                     <div className='md:flex md:px-10'>
                         {/* Left Content */}
                         <div className='px-12 pt-3 md:mt-10 lg:mt-20'>
-                            <h1 className='text-2xl font-bold text-transparent md:text-3xl lg:text-5xl bg-clip-text bg-gradient-to-r from-black to-blue-800'>
+                            <h1 className='text-3xl mt-8 font-bold text-transparent md:text-3xl lg:text-5xl bg-clip-text bg-gradient-to-r from-black to-black '>
                                 ZameenJaidad is a platform you can sell buy property. You can also register as agent publish your ads
                             </h1>
                             <p className='pt-3 text-xs text-white sm:text-base md:pt-5'>
-                                The only platform you'll ever need to run your business: <br /> 
-                                integrated apps, kept simple, and adored by users.
+                                
                             </p>
                             <div className='hidden mt-4 md:flex'>
                                 <TryMonmatics />

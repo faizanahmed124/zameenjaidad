@@ -5,7 +5,7 @@ const TryMonmatics = () => {
     <>
     
     <div className=''> 
-        <button className='bg-orange-600 px-2 py-1 rounded-lg'> Try Zameen Jaidad</button>
+        <button className='bg-blue-800 px-3 py-2 text-white  rounded-lg'> Try Zameen Jaidad</button>
     </div>
     
     </>
